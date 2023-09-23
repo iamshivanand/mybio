@@ -1,0 +1,67 @@
+#root {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.app-container {
+  /* border: 5px solid orange; */
+  margin: 0px;
+  width: 375px;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+.heading {
+  padding: 10px 0px;
+  text-align: left !important;
+}
+.hidden {
+  display: none;
+}
+.skills-nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills-container-edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills-input {
+  border: 1px solid grey;
+  height: 80px;
+  width: 90%;
+  display: flex;
+  overflow: scroll;
+}
+.custom-dropdown {
+  padding: 8px 0px;
+  border: 1px solid red;
+  height: 150px;
+  overflow-x: scroll;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+::-webkit-scrollbar {
+  width: 10px; /* Adjust the width as needed */
+}
+.skills-container {
+  height: 50px;
+  display: flex;
+  overflow: scroll;
+  /* border: 1px solid grey; */
+}
+.save-button {
+  height: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: orangered;
+  border: none;
+  font-size: 22px;
+  font-weight: bolder;
+  color: white;
+}

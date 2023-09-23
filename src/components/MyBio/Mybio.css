@@ -1,0 +1,133 @@
+.mybio-container {
+  color: black;
+  margin: 0px 5px;
+  background-color: white;
+}
+.naviagtion-container {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.naviagtion-container div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.about-me-section {
+  /* border: 1px solid red; */
+  height: 100%;
+}
+.about-me-details-container span {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: left;
+  /* border: 1px solid black; */
+}
+.heading-container {
+  margin: 20px 0px;
+}
+.heading-container div {
+  padding: 0px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blood-group-container {
+  display: flex;
+  justify-content: space-between;
+}
+.resume-container {
+  margin-top: 20px;
+  border-radius: 5px;
+  /* border: 1px solid grey; */
+  width: 96%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  filter: drop-shadow(2px 2px 2px rgb(163, 162, 162));
+  cursor: pointer;
+}
+.resume-container > div {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.resume-container img {
+  height: 70%;
+  object-fit: contain;
+}
+.my-bio-editable-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 93vh;
+  background-color: rgb(250, 253, 255);
+}
+.my-bio-editable-container > div {
+  margin: 20px 0px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.bio-input {
+  margin: 0px 5px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* border: 1px solid blue; */
+  width: 100%;
+}
+
+.bio-input textarea {
+  width: 98%;
+  height: 160px;
+  outline: none;
+  font-size: 16px;
+  background-color: rgb(245, 245, 245);
+}
+.resume-container-edit {
+  width: 100%;
+}
+.resume-edit-container {
+  margin-top: 20px;
+  border: 1px solid rgb(190, 190, 190);
+  background-color: aliceblue;
+  height: 90px;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  color: black;
+}
+
+.blood-group-dropdown {
+  margin-top: 20px;
+  width: 100%;
+}
+.blood-group-dropdown select {
+  border-radius: 0px;
+  margin-top: 20px;
+  height: 30px;
+  width: 98%;
+  outline: none;
+}
+
+.pdf-preview {
+  height: 60px;
+  width: 100%;
+  border: 5px solid red;
+}
+.disbaled {
+  background-color: grey;
+  cursor: not-allowed;
+}
